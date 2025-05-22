@@ -1,4 +1,16 @@
 {
   "name": "fun2app",
-  "displayName": "fun2app"
+  "displayName": "fun2app",
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ]
+  }
 }
